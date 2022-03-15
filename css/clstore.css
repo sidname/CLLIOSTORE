@@ -1,0 +1,57 @@
+@charset "utf-8";
+body { font-family:"맑은 고딕",sans-serif; } 
+#wrap { width:100%; } 
+
+
+/*header*/
+header { position:fixed; z-index:300; top:0px; left:0px; width:100%; height:70px; background-color:#fff; border-bottom:2px solid black; margin-bottom:20px; } 
+header>.btn_mnu { display:none; } 
+header>h1 { position:fixed; top:25px; left:50%; margin-left:-475px; width:60px; height:25px; } 
+header>h1>a { position: absolute; right: 3px; top: -10px; display:block; width:100px; height:55px; text-indent:-9999em; background-image:url(../image/tumblr_495b867e02bd41b9d80c6b8a02744aa9_6e301a0f_1280-removebg-preview.png); background-size:110px auto; background-repeat:no-repeat; } 
+
+header>.gnb { position:fixed; top:27px; left:50%; margin-left:-350px; } 
+header>.gnb>ul>.lang { display:none; position:fixed; top:60px; left:50%; margin-left:-350px; width:110px; outline:1px solid black; } 
+header>.gnb>ul>.lang>ul { width:110px; height: 115px; background-color:#fff; outline:1px solid black; padding: 10px 0; } 
+header>.gnb>ul>.lang>ul>li { float:left; width:110px; height:25px; padding:0px 5px; line-height:25px; text-align:left; box-sizing:border-box; padding: 0 20px; } 
+header>.gnb>ul>.lang>ul>li:nth-child(2) { margin-top: 5px; } 
+header>.gnb>ul>.lang>ul>li:nth-child(3) { margin-top: 5px; } 
+header>.gnb>ul>.lang>ul>li:nth-child(4) { margin-top: 5px; } 
+header>.gnb>ul>.lang>ul>li:hover,header>.gnb>ul>.lang>ul>li:focus,header>.gnb>ul>.lang>ul>li.on { text-decoration: underline; cursor: pointer; } 
+
+header>.gnb>ul>li { float:left; font-size:15px; } 
+header>.gnb>ul>li:last-child { margin-right:0; } 
+header>.gnb>ul>li:last-child:after { content: ''; } 
+/* header>.gnb>ul>li:after { content: '|'; padding:0 20px; font-size:11px; vertical-align:text-top; color:#999; } */
+header>.gnb>ul>li>a { color:#777; transition:all 0.4s; } 
+header>.gnb>ul>li:hover>a,header>.gnb>ul>li>a:focus { color: black; } 
+
+header>.sns { float:left; position:fixed; top:25px; right:50%; margin-right:-485px; } 
+header>.sns2 { float:left; position:fixed; top:25px; right:50%; margin-right:-565px; } 
+header>.sns>li>a { float:left; height:25px; line-height:25px; text-align:left; box-sizing:border-box; color: rgb(119, 119, 119); font-size: 14px; } 
+header>.sns2>li>a { float:left; height:25px; line-height:25px; text-align:left; box-sizing:border-box; color: rgb(119, 119, 119); font-size: 14px; } 
+
+header>.sns>ul>li>a { display:block; text-indent:-9999em; } 
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer { width:100%; height:90px; background-color:#3b3b3b; /* float: left; position: relative; bottom: -84px; */}
+
+footer>.fnb { margin:0 auto; width:870px; } 
+footer>.fnb>ul { width:870px; } 
+footer>.fnb>ul>li { float:left; margin-top:20px; margin-right:5px; font-size:12px; } 
+footer>.fnb>ul>li:last-child { margin-right:0; } 
+footer>.fnb>ul>li:last-child:after { content: ''; } 
+footer>.fnb>ul>li:after { content: '|'; padding-left:5px; font-size:11px; vertical-align:text-top; color:#ccc; } 
+footer>.fnb>ul>li>a { color:#ccc; } 
+
+footer>.fnb>li>a { margin-top:15px; display:block; text-align:center; font-size:12px; color:#ccc; } 
+
+.con6 { width: 100%; text-align:center; padding:250pt 0; font-weight:750; font-size:4rem; color: #efe7e7; } 
